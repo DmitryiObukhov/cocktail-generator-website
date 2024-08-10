@@ -24,6 +24,14 @@ You can visit the live version of the site [here](https://dmitryiobukhov.github.
 - **Google Fonts**: A selection of custom fonts from Google Fonts has been integrated for better typography.
 - **Responsive Design**: The site is fully responsive, ensuring a seamless experience on both desktop and mobile devices.
 
+## Credits
+
+All images, scripts, and stylesheets used on this site are original or sourced from open and royalty-free resources.
+
+## License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+
 ## Getting Started
 
 To run the website locally, clone the repository and open the `index.html` file in your preferred web browser.
@@ -32,11 +40,3 @@ To run the website locally, clone the repository and open the `index.html` file 
 git clone https://github.com/your-username/sweet-drinks.git
 cd sweet-drinks
 open index.html
-
-## Credits
-
-All images, scripts, and stylesheets used on this site are original or sourced from open and royalty-free resources.
-
-## License
-
-This project is licensed under the MIT License — see the LICENSE file for details.
