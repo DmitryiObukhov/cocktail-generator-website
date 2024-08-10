@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/cocktail-logo.png" type="image/x-icon">
+    <title>Sweet Drinks</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/generator.css" rel="stylesheet">
+    <link href="css/cocktails.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Play:wght@400;700&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Play:wght@400;700&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="script/generator.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="#" class="logo">Sweet Drinks<img src="images/cocktail-logo.png" class="icon"/></a>
+        </div>
+        <ul class="navigation">
+            <li><a href="#cocktails" class="nav">Cocktails</a></li>
+            <li><a href="#about" class="nav">About us</a></li>
+            <li><a href="#location" class="nav">Location</a></li>
+        </ul>
+    </header>
+    <div class="generator">
+        <div class="generator-description">
+            <h1>Generate Your Perfect Cocktail</h1>
+            <p>If you're unsure what to drink, click the button below to generate a random cocktail recipe!<br>
+                If you like the recommendation, you can ask the bartender to prepare it for you.<br>
+                Feel free to generate another cocktail if the first one doesn’t quite hit the spot!</p>
+            <button id="generate-cocktail">Generate Cocktail</button>
+        </div>
+        <div class="cocktail-result" id="cocktail-result">
+
+        </div>
+    </div>
+    <div id="cocktails" class="cocktails">
+        <h1 class="cock-title">Cocktails</h1>
+        <h2 class="cock-about">Top signature drinks</h2>
+        <div class="cocktails-container">
+            <figure class="cock-img"><img src="images/orange&peach margarita.jpg"/><figcaption>Peach Margarita <br>$15<br><p>Fresh, sweet and sour drink with fruit flavours, based on Tequila and Quantro.</p></figcaption></figure>
+            <figure class="cock-img"><img src="images/rosa mexicana.jpg"/><figcaption>Rosa Mexicana <br>$17<br><p>Bitter, sweet and sour drink with berrys notes, based on Vodka and Campari.</p></figcaption></figure>
+            <figure class="cock-img"><img src="images/cucumber collins.jpg"/><figcaption>Cucumber Collins <br>$11<br><p>Fresh and light summer cocktail, based on gin with adding cucumber liquor and lime cordial.</p></figcaption></figure>
+            <figure class="cock-img"><img src="images/vacation.jpg"/><figcaption>Vacation <br>$10<br><p>Sweet and sour Rum cocktail with almond, coconut liquors and banana cordial.</p></figcaption></figure>
+            <figure class="cock-img"><img src="images/old fashioned.jpg"/><figcaption>Old Fashioned <br>$20<br><p>An exquisite cocktail with notes of caramel, vanilla and oak, emphasized by a slight bitter accent.</p></figcaption></figure>
+            <figure class="cock-img"><img src="images/mona lisa.jpg"/><figcaption>Mona Lisa <br>$15<br><p>Sweet and sour cocktail with vodka - refreshing sourness with notes of sweet popcorn and vanilla.</p></figcaption></figure>
+            <figure class="cock-img"><img src="images/violet sour.jpg"/><figcaption>Violet Sour <br>$12<br><p>Sweet and sour cocktail with gin, lavender, violet liqueur and lemongrass - an elegant drink with floral and citrus accents.</p></figcaption></figure>
+            <figure class="cock-img"><img src="images/negroni.jpg"/><figcaption>Negroni <br>$10<br><p>A classic cocktail with the harmony of the bitterness of Campari, the sweetness of vermouth and the richness of gin.</p></figcaption></figure>
+        </div>
+    </div>
+    <div id='about' class="about">
+        <h1>Sweet Drinks: The Art of Mixology and Unforgettable Flavor</h1>
+        <p>Welcome to Sweet Drinks – your perfect spot for enjoying sweet cocktails crafted with artistry and passion.<br>
+             Our bar specializes in unique and delightful drinks that seamlessly blend the finest traditions of mixology with innovative recipes.</p>
+        <h1>Our Team:</h1>
+        <div class="team">
+            <figure class="team-img"><img src="images/davie.jpg"/><figcaption>Davie<br><span>head-bartender</figcaption></span></figure>
+            <figure class="team-img"><img src="images/boss.png"/><figcaption>BOSS<br><span>owner</figcaption></span></figure>
+            <figure class="team-img"><img src="images/bob.jpg"/><figcaption>Bob<br><span>bar-manager</span></figcaption></figure>
+        </div>
+    </div>
+    <footer>
+        <p><em>Sweet Drinks<img src="images/cocktail-logo.png" class="icon"/></em></p>
+        <div class="info">
+            <div id="location" class="location">
+                <h1>Location:</h1>
+                <ul>
+                    <li>101 Broadway, New York, NY 10007, USA</li>
+                    <li>205 5th Avenue, New York, NY 10010, USA</li>
+                    <li>300 West 42nd Street, New York, NY 10036, USA</li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="images/instagram-icon.svg"/></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src="images/facebook-icon.svg"/></a>
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer"><img src="images/x-icon.svg"/></a>
+            </div>
+        </div>
+    </footer>
+    <div class="contacts">
+        <h3>sweetdrinks@mail.com</h3>
+        <h3>0-500-300-234</h3>
+    </div>
+</body>
+</html>

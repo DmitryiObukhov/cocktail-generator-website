@@ -1,0 +1,88 @@
+/* About */
+
+.about {
+    margin: 5rem;
+}
+
+.about h1 {
+    text-align: center;
+    font-family: 'Victor Mono', monospace;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.about p {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.125rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 3rem;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.team figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.team img {
+    width: 100%;
+    height: auto;
+    max-width: 30rem;
+    max-height: 31.503rem;
+    border-radius: 0.5rem;
+}
+
+.team figcaption {
+    text-align: center;
+    font-family: 'Victor Mono', monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.team figcaption span {
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .about {
+        margin-top: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .about h1 {
+        font-size: 1.7rem;
+    }
+    .team {
+        gap: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .about {
+        margin-top: 3rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .about h1 {
+        font-size: 1.65rem;
+    }
+    .team {
+        gap: 1rem;
+    }
+}
